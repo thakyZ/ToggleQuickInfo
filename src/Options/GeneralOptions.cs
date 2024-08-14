@@ -8,7 +8,7 @@ namespace ToggleQuickInfo
         [Category("General")]
         [DisplayName("Show Tooltips")]
         [Description("Specifies whether to show editor tooltips (QuickInfo) when mouse hovers over an identifier.")]
-        [DefaultValue(false)]
+        [DefaultValue(true)]
         public bool ShowTooltips { get; set; }
     }
 }
